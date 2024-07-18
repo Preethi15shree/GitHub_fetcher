@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #24292e;
+  }
+  
+  .container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Search Section */
+  .search {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .search h2 {
+    margin: 10px 0;
+  }
+  
+  .search-input {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-button:hover {
+    background-color: #555;
+  }
+  
+  /* Profile Section */
+  .profile {
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-right: 20px;
+  }
+  
+  .profile h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .profile p {
+    margin: 5px 0;
+  }
+  
+  /* Repositories Section */
+  .repositories {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .repository {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .repository h4 {
+    margin: 0 0 10px 0;
+  }
+  
+  .repository p {
+    margin: 5px 0;
+  }
+  
+  .repository a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .repository a:hover {
+    text-decoration: underline;
+  }
+  
